@@ -18,4 +18,8 @@
 
 ### mongose 
 
-主要有Schema Model document相关概念
+主要有Schema Model document相关概念  
+- Model 对应的就是 mongodb集合， Model实例有 增删改查  如下 Category是 Model的一个实例
+- 查询数据 Category.find(condition, callback)
+- 更新数据 Category.findOneAndUpdate(codition, updateDATA, callback)
+- 添加数据 Category.create(data, callback)  data 为 json 对象或数组
